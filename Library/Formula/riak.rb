@@ -4,9 +4,9 @@ class Riak < Formula
   homepage 'http://wiki.basho.com/Riak.html'
 
   if Hardware.is_64_bit? and not build.build_32_bit?
-    url 'http://s3.amazonaws.com/downloads.basho.com/riak/1.3/1.3.1/osx/10.6/riak-1.3.1-osx-x86_64.tar.gz'
-    version '1.3.1-x86_64'
-    sha256 'e7b4db2273ef3fc0ba76f37468ff040d94a9bdac90ed129e226e483b19451414'
+    url 'http://s3.amazonaws.com/downloads.basho.com/riak/1.4/1.4.0/osx/10.8/riak-1.4.0-OSX-x86_64.tar.gz'
+    version '1.4.0-x86_64'
+    sha256 '4830b9e00b520b8494264017bfc2ff10753fd51b9e013bafd3054e29e5be1443'
   else
     url 'http://s3.amazonaws.com/downloads.basho.com/riak/1.3/1.3.1/osx/10.6/riak-1.3.1-osx-i386.tar.gz'
     version '1.3.1-i386'
