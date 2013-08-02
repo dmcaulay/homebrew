@@ -6,7 +6,7 @@ class Expm < Formula
   sha1 '3dcc3f081eb53543e297f03e7e64cdf653065720'
 
   def install
-    system "make", "install" # if this fails, try separate make/make install steps
+    system "make"
   end
 
   test do
